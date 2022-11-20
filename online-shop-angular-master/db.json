@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Albion Online",
+      "price": "130",
+      "description": "100kk silver, 10k gold"
+    },
+    {
+      "id": 2,
+      "title": "Brawl Stars",
+      "price": "50",
+      "description": "10k, 52 characters"
+    },
+    {
+      "id": 3,
+      "title": "GTA 5",
+      "price": "10",
+      "description": "New account"
+    },
+    {
+      "id": 4,
+      "title": "св",
+      "price": "су",
+      "description": "су"
+    }
+  ],
+  "basket": [
+    {
+      "id": 4,
+      "title": "св",
+      "price": "су",
+      "description": "су",
+      "quantity": 4
+    },
+    {
+      "id": 2,
+      "title": "Brawl Stars",
+      "price": "50",
+      "description": "10k, 52 characters",
+      "quantity": 4
+    }
+  ]
+}
