@@ -1,0 +1,20 @@
+<div class="con">
+    <div>
+   <h2 class="log">Авторизация</h2>
+  </div>
+  <div>
+    <div class="col re">
+      <p><b>Почта:</b><br>
+          <input class="email1 des" type="text" size="20" placeholder="Example@mail.ru"maxlength="300"[(ngModel)]="mail">
+          <div *ngIf="incorrectMail" style="background-color: rgb(255, 255, 255); color: rgb(255, 0, 0); width: 170px;">Неверная почта</div>
+      <p><b>Пароль:</b><br>
+        <input class="password3 des"  type="text" size="20"minlength="10" maxlength="300"[(ngModel)]="password">
+        <div *ngIf="incorrectPassword" style="background-color: rgb(255, 255, 255); color: rgb(255, 0, 0); width: 170px;">Пароль неверный</div>
+  </div>
+  <div *ngIf="entrance" style="background-color: rgb(255, 255, 255); color: rgb(255, 191, 0); width: 170px;" >Вы успешно вошли</div>
+  </div>
+  <div>
+    <button  class="but" (click)="enter()">Войти</button>
+  </div>
+  </div>
+  

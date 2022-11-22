@@ -1,0 +1,36 @@
+.child {
+    background-color: rgb(255, 0, 0);
+    text-decoration: none ;
+    }
+    .con{
+        padding-top: 100px;
+        text-align: center;
+    }
+    .but{
+        border-radius:1em ;
+        background-color: rgba(3, 3, 202, 0.747);
+        color: white;
+        margin-left: 15px;
+        width: 100px;
+        height: 35px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .log{
+        padding-top: 100px;
+        padding-left: 15px;
+        padding-bottom: 40px;
+    }
+    .des{
+        border-radius: 0.9em;
+        height: 25px;
+        border-color: rgb(0, 0, 0);
+    }
+    .but:hover
+{
+    background-color: darkblue
+}
+.re{
+    text-align: center;
+    padding-left: 0.5%;
+}

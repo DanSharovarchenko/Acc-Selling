@@ -1,0 +1,39 @@
+<div class="con ht row">
+    <h2 class="reg">Регистрация</h2>
+    <div class="re">
+        <p><b>Имя:</b><br>
+            <input class="firstName des" type="text" size="20" [(ngModel)]="name" maxlength="20" minlength="1" />
+        </p>
+        <p><b>Фамилия:</b><br>
+            <input class="lastName des" type="text" size="20" [(ngModel)]="surname" maxlength="20" minlength="1" />
+        </p>
+        <p><b>Отчество:</b><br>
+            <input class="thirdName des" type="text" size="20" maxlength="20">
+        </p>
+        <p><b>Почта:</b><br>
+            <input class="mail des" type="email" size="20" placeholder="Example@mail.ru" [(ngModel)]="mail" maxlength="300">
+        </p>
+   
+    
+        <p class="size"><b>Пароль:</b><br>
+            <input class="password1 des" name="password" type="password" placeholder="Минимум 10 символов"
+                [(ngModel)]="password" minlength="10" maxlength="300">
+        <p><b>Подтверждение пароля:</b><br>
+            <input class="password2 des" name="password" type="password" [(ngModel)]="password1" minlength="10"
+                maxlength="300">
+        <div *ngIf="incorrectPassword" style="background-color: rgb(255, 255, 255); color: rgb(255, 0, 0); width: 170px;">Пароли не совпадают</div>
+        
+        <p><b>Дата рождения:</b><br>
+            <input class="dateTime des" type='date' min='1900-01-01' max='2015-01-01'>
+        </p>
+        <p><b>Пол:</b><br>
+            <select class="gender des" name="demo" id="#">
+                <option selected="selected" value="one">Мужской</option>
+                <option value="two">Женский</option>
+            </select>
+        </p>
+    </div>
+    <div class="but1"> 
+        <button class="but" (click)="register()" >Зарегистрироваться</button>
+    </div>
+    </div>
