@@ -37,20 +37,5 @@
       "description": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"
     }
   ],
-  "basket": [
-    {
-      "id": 2,
-      "title": "Brawl Stars",
-      "price": "50",
-      "description": "10k, 52 characters",
-      "quantity": 1
-    },
-    {
-      "id": 3,
-      "title": "GTA 5",
-      "price": "10",
-      "description": "New account",
-      "quantity": 1
-    }
-  ]
+  "basket": []
 }
